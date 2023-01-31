@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="modal display-none">
+      <p>Ånej, det går inte att ta bort en todo som inte är klarmarkerad</p>
+    </div>
+    <div class="wrapper">
+      <div class="title">
+        <h1>TO DO:</h1>
+      </div>
+      <div id="output">
+        <div class="card">
+          <p>Köpa mjölk</p>
+          <button class="delete-btn disabled">Delete</i></button>
+        </div>
+      </div>
+      
+      <div class="error-div">
+      <form id="add-form">
+        <input type="text" id="add-form_item">
+        <button class="add-btn">Add</button>
+      </form>
+        <p class="error-message display-none">Hoppsan, du kan inte lägga till en tom rad</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
