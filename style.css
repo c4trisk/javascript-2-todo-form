@@ -52,6 +52,7 @@
 
 .card:hover {
   font-weight: bold;
+  transition: all 150ms;
 }
 
 .completed-task {
@@ -75,12 +76,12 @@
   outline: none;
   cursor: pointer;
   font-weight: bold;
-  transition: all 200ms;
+  transition: all 150ms;
 }
 
 .delete-btn:hover {
   font-weight: 700;
-  color:#d1b82b;
+  color:#fff1a2;
 }
 
 #add-form {
@@ -130,11 +131,11 @@
 }
 
 .disabled {
-  color: #6f5574;
+  color: #6f557491;
   font-weight: 400;
 }
 .disabled:hover {
-  color: #6f5574;
+  color: #6f557491;
   font-weight: 400;
   cursor: auto;
 }
